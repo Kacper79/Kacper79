@@ -1,16 +1,19 @@
 ## Hi there 👋
 
-<!--
-**Kacper79/Kacper79** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My name is Kacper. I am currently a CS (computer science) graduate (bachelor studies) with the intent to complete the studies with Master title.
 
-Here are some ideas to get you started:
+## Intrests:
+1. 3D Graphics & GameDev - I have briefly worked at GameDev company and assisted in developing games in Unity. I am interested in creating 3D low-level small game engines / demos in C++ (CMake, GLFW, Glad, STB, GLM etc) with the potential to scale up the engine for commercial use. The last thing I have implemented there, when I still had some time, was 3D PBR rendering with some IBL baking enable (albeit it needs some work on the IBL probes) and I still intened to add some new rendering features when I have more time. In addition I have made a small game (Quorridor) in terminal with full TUI support (using arrows as and input), colors and per input press refresh rate for a Uni project. Currently working a new 3D networking game prototype combining my love for networking and graphics programming (and looking to montize the game as a service). GameDev is an interesting niche combining the math, physics and computer science knowledge with the potential to apply some low-level 
+   
+2. Systems and Network Administration - Took an elective in systems administration and fell in love with managing custom server rack. I have worked with old Dell/HP servers, configured iDRAC and hardware RAIDs on the platform and installed linux. I have connected multiple old Cisco switches, setup some ports, stacking, VLANs, 802.1X and some security and connected the Cisco access swiches with the configured linux server serving as software router with the DNS, DHCP, RADIUS, VRRP + Keepalived services with firewall rules enabled. I have connected another workstations to the network (and VLANs) and made sure that connecting a new workstation to the network with ethernet cable automatically assigned an IPv4 within the VLAN address range depending on the switch's ethernet port used and was able to connect to network's AD (not configured by me). Very informative and intresting course. Besides attending the system administration course I also took a cloud enginnering course working closely with the Google (GCP) cloud. I am ready for deploying both on-prem and in the cloud (and ofc in hybrid environments). Also I've completed a course in network (socket) programming.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+3. Embedded programming and OS development - Having worked on cisco switches, i got interested in making my own custom networking L2+ switch. I've prepared a small project for the custom 8 port L2 switch. I have designed a PCB schematic using multiple ICs (Microchip networking switch chip with MIPS integrated CPU, DDR3L RAM and power delivery (buck converters, LDOs, voltage supervisors, powerjacks etc) with the potential to integrate further a Lattice/Microchip FPGA for custom L3 features. I am in the process of designing the actual PCB Layout in KiCAD. Also having been interested in X86 arch, assembler and having worked with Arduino project with RTOS for uni, I am confident that I would eventually make some custom software for my new switch.
+
+But when the mood/need stikes, I can and will design a quick, provisional app/webapp depending on the needs. I have designed two quick webapps than can be extended: todo app (Trello-like) and documents app (Google Docs-like) and some shell scripts for quick automation.
+
+## Languages:
+ - C/C++ (both structural and objective style and conventions)
+ - Java (Done some uni projects in Java)
+ - C# (I have worked some time with Unity game engine and learned its limitations)
+ - Some JS and PHP (I have implemented a website from already made graphical concept passed to me into an actual HTML ready webstie and have made it interactive)
+ - Looking to learn Zig as a new low-level language once it becomes a stable language
