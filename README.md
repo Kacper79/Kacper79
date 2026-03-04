@@ -2,7 +2,7 @@
 
 Obecnie studiuje Informatykę na UKSW (studia magisterskie). Od zawsze interesowały mnie komputery jak działają od samych podstaw - od strony krzemu, systemu operacyjnego do wspólczesnych aplikacji. Nic dziwnego więc że **interesuje mnie niskopoziomowe programowanie, wchodzenie w szczegóły abstrakcji czy okazjonalne wynajdywania koła na nowo**. Mam wiele obszarów zainteresowań, które staram się poszerzać z własnej ciekawości a może w przyszłości zmonetyzować. Moje ciągłe poszerzanie wiedzy i pewne doświadczenie życiowe sprawiło że nie boję się sprostać wyzwaniom lub cięższym projektom.
 
-[LinkedIn](https://www.linkedin.com/in/kacper-smykla-1a1344359/) &emsp;&emsp;  [Google Skills](https://www.skills.google/public_profiles/f45865be-b1e5-48ef-bbb6-3f2c64acdc77) &emsp;&emsp; [Prace dyplomowe](#prace-dyplomowe) &emsp;&emsp; [Projekty uczelniane](./proj-ucz.md) &emsp;&emsp; [Projekty personalne](./proj-person.md) &emsp;&emsp; [Kontakt mailowy](mailto:kacper@smykla.pl)
+[LinkedIn](https://www.linkedin.com/in/kacper-smykla-1a1344359/) &emsp;&emsp;  [Google Skills](https://www.skills.google/public_profiles/f45865be-b1e5-48ef-bbb6-3f2c64acdc77) &emsp;&emsp; [Prace dyplomowe](#prace-dyplomowe) &emsp;&emsp; [Projekty uczelniane](./proj-ucz.md) &emsp;&emsp; [Projekty personalne](./proj-person.md) <br> [Kontakt mailowy](mailto:kacper@smykla.pl)
 
 **Języki programowania:** C, C++, Java, Python
 # Obszary zainteresowań:
