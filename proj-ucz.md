@@ -1,7 +1,9 @@
 # Projekty uczelniane (stopniowo uzupełniane):
 
-## 0. Projekt z aplikacji mobilnych (H2 2026) - WIP
+## 0. Projekt z aplikacji mobilnych (H2 2026) - TBA
 ## 0.Projekt z optymalizacji biznesowej (H2 2026) - WIP
+Celem projektu jest użycie solvera ograniczeń IBM ILOG CPLEX do zamodelowania matematycznie oraz zaimplementowania problemu produkcyjnego oraz dystrybucyjnego.
+
 ## 0. Implementacja NER z Przetwarzania języka naturalnego (H2 2026) - WIP
 
 # 1. Język DSL Robot2D (H1 2026)
@@ -45,11 +47,14 @@ Na projekcie zespołowym znalazłem się w grupie zamującej się grą komputero
 więzienia (czysty prison break). Aby uciec z więzienia trzeba się do tego przygotować poprzez wykonanie zadań (questów) dających przedmioty potrzebne do ucieczki oraz przekonanie pewnych więźniów, żeby nam pomogli. W finalnej ucieczce w ucieczce będą przeszkadzali strażnicy, a dostęp do niektórych stref więzienia będzie utrudniony i patrolowany. Gra będzie odzwierciedlała realia więzienne i realizować niektóre z
 czynności/problemy jakie tam się dzieją np. bójki więźniów, hazard, przemycanie przedmiotów czy handlowanie nimi. Gra zostanie udostępniana jako release na githubie.
 
-[**Projekt na GitHub**](https://github.com/Kacper79/UKSW_Escape_Within_Reach_Gr_1) &emsp;&emsp; [**Board Trello**](https://trello.com/b/6qdRppMN/uksw-escape-within-reach-gr1)  &emsp;&emsp; [**Dokumentacja techniczna projektu**](./proj-zesp1-gr1)
+[**Projekt na GitHub**](https://github.com/Kacper79/UKSW_Escape_Within_Reach_Gr_1) &emsp;&emsp; [**Board Trello**](https://trello.com/b/6qdRppMN/uksw-escape-within-reach-gr1)  &emsp;&emsp; [**Dokumentacja techniczna projektu**](./proj-zesp1-gr1.pdf)
 
 ## 8. Zaliczenie Technik Cyfrowych z Arduino (H1 2024)
 
 ## 9. Zaliczenie Inżynierii Oprogramowania - System Informatyczny dla Czytelni (H1 2024)
+Celem było przygotowanie prostego systemu obsługi czytelni z wykorzystaniem C++, UML oraz wzorców projektowych.
+
+[**Projekt na GitHub**](https://github.com/Kacper79/INCzytelnia) &emsp;&emsp; [**Dokumentacja**](./in-oprog-proj-dok.pdf)
 
 ## 10. Projekt indywidualny w Java - nakładka GUI na Sniffer z lipcap (H1 2024)
 Jako projekt indywidualny postanowiłem zrobić własny uproszczony klon Wireshark w Java na podstawie biblioteki libpcap. GUI zostało zaimplementowane z biblioteką Swing w Java oraz użyciem buildsystemu Gradle.
