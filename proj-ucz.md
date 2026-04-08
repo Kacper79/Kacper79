@@ -18,7 +18,7 @@ Narzędzie SLANG było nietypowe, bo generowało gotowy interpreter języka DSL 
 # 2. Skaner amplifikacji do testowania podatności na DDOS (H2 2025)
 **Na przedmiocie "Systemy rozproszone i przetwarzanie równoległe"** miałem za zadanie przygotować skaner amplifikacji w C++, który wykorzystuje wyznaczone **protokoły (DNS, NTP, SNMP)** a konkretnie podatności w konfiguracji ich serwerów aby dokonać amplifikacji, na której można **oprzeć przyszłe ataki DDoS.** Projekt został zrealizowany jako prosty konsolowy program, gdzie można mu podać jako argumenty wybrany protkół oraz adres IP/ domenę DNS.
 
-[**Prezentacja**](./AmplificationScanner.pptx) &emsp;&emsp; [**Projekt na GitHub**](https://github.com/Kacper79/ddos-tools)
+[**Prezentacja**](./AmplificationScanner.pdf) &emsp;&emsp; [**Projekt na GitHub**](https://github.com/Kacper79/ddos-tools)
 
 # 3. Implementacja algorytmu genetycznego (H2 2025)
 **Na przedmiocie "Algorytmy Inspirowane Naturą"** zajmowałem się tworzeniem algorytmów genetycznych dla problemów jednokryterialnych oraz wielokryterialnych (wykorzystując algorytm **NSGA-II**). Eksperymentowałem z parametrami algorytmu dla funkcji benchmarkowych - ZDT1-3 + ZDT4 + ZDT6 dla funkcji wielokryterialnych oraz funkcji Rosenbrock, Whitley, Solomon dla jednokryterialnej.
