@@ -33,7 +33,7 @@ Narzędzie SLANG było nietypowe, bo generowało gotowy interpreter języka DSL 
 # Implementacją algorytmu Simplex - Nelder-Mead (H2 2025)
 Na przedmiocie "Metody Numeryczne" miałem za zadanie przygotować implementacje algorytmu simplex (Nelder-Mead) w C++.
 
-[**Prezentacja**](./NELDER-MEAD.pptx)
+[**Prezentacja**](./NELDER-MEAD.pdf)
 
 ## 5. Implementacja strony WWW z Backend (Spring) + Frontend (Thymeleaf) w Java (H1 2025)
 
