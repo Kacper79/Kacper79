@@ -23,12 +23,12 @@ Narzędzie SLANG było nietypowe, bo generowało gotowy interpreter języka DSL 
 # 3. Implementacja algorytmu genetycznego (H2 2025)
 **Na przedmiocie "Algorytmy Inspirowane Naturą"** zajmowałem się tworzeniem algorytmów genetycznych dla problemów jednokryterialnych oraz wielokryterialnych (wykorzystując algorytm **NSGA-II**). Eksperymentowałem z parametrami algorytmu dla funkcji benchmarkowych - ZDT1-3 + ZDT4 + ZDT6 dla funkcji wielokryterialnych oraz funkcji Rosenbrock, Whitley, Solomon dla jednokryterialnej.
 
-[**Sprawozdanie Jednokryterialne**](./alin-kol1-sprawozdanie-ks.pdf) &emsp;&emsp; [**Sprawozdanie wielokryterialne**](./ALIN-KOL2-Wyniki.pdf)
+[**Sprawozdanie Jednokryterialne**](./alin-kol1-sprawozdanie-ks.pdf) &emsp;&emsp; [**Sprawozdanie wielokryterialne**](./ALIN-KOL2-Sprawo.pdf)  &emsp;&emsp; [**Wyniki wielokryterialnego alg**](./ALIN-KOL2-Wyniki.pdf)
 
 # 4. Administracja systemem komputerowym - Linux + Cisco (2025)
 **Na przedmiocie "Administrowanie Systemami i Sieciami Komputerowymi"** zajmowałem się administracją małej sieci komputerów roboczych i dwóch serwerów Dell w postaci Rack mających symulować infrastrukturę średniej firmy. Na serwerach postawiłem Ubuntu Linux i ustawiłem je w roli software routera stanowiących gateway. Serwery mialy postawione usługi DHCP, DNS, VPN, Keepalived (protokól VRRP) dla redundencji routerów. Na switchach cisco ustawiłem zabezpieczenia w tym odpowiednią segmentacje sieci za pomocą VLAN. Finalnym efektem było, że przepięcie kabla ethenet stacji roboczej do switcha pomiędzy portami należącymi do innego VLANu powodowało przydzielenie innego adresu IP - adresu IP z puli danej podsieci DHCP. Udało się podpiąć wcześniej istniejące maszyny wirtualne Active Directory pod moją sieć, tak aby użytkownicy mogli się logować przez stacje robocze do AD i otrzymywali odpowiednią adresacje IP. Ustawiłem odpowiedni DNS Relay, zabezpieczyłem przeciwko DHCP Snooping, ustawiłem Broadcast Storm, Sticky MAC.
 
-[**Prezentacja postępów (przykładowa 3 Kwietnia)**](./assk-sprawozdanie-03.04.pdf) &emsp;&emsp; [**Dokumentacja projektu**]() &emsp;&emsp; [**Zdjęcia**]()
+[**Prezentacja postępów (przykładowa 3 Kwietnia)**](./assk-sprawozdanie-03.04.pdf) &emsp;&emsp; [**Dokumentacja projektu**](./assk-dokumentacja.pdf) &emsp;&emsp; [**Zdjęcia**]()
 
 # Implementacją algorytmu Simplex - Nelder-Mead (H2 2025)
 Na przedmiocie "Metody Numeryczne" miałem za zadanie przygotować implementacje algorytmu simplex (Nelder-Mead) w C++.
@@ -65,4 +65,4 @@ Jako projekt indywidualny postanowiłem zrobić własny uproszczony klon Wiresha
 Jako projekt zaliczający programowanie obiektowe miałem za zadanie przygotować implementacje gry logicznej - [Quoridor](https://en.wikipedia.org/wiki/Quoridor) w C++ w terminalu. Można grać w wariancie od jednym do czterech graczy, z czego pozostali gracze są obsługiwani przez komputer.
 Aby urozmaicić sobie ten projekt, zaprojektowałem elementy TUI jako oddzielne klasy (dla widoków różnych - menu, gra, tworzenie gry) oraz dodałem wygodne sterowanie z klawiatury oraz wyświetlanie kolorów.
 
-[**Projekt na GitHub**](https://github.com/Kacper79/Quoridor) [**Dokumentacja techniczna**](./manual_PO.pdf)
+[**Projekt na GitHub**](https://github.com/Kacper79/Quoridor)  &emsp;&emsp; [**Dokumentacja techniczna**](./manual_PO.pdf) &emsp;&emsp; [**Program do testow**](./Semestralna.exe)
