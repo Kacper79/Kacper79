@@ -2,7 +2,9 @@
 
 ## 0. Projekt z aplikacji mobilnych (H2 2026) - TBA
 ## 0.Projekt z optymalizacji biznesowej (H2 2026) - WIP
-Celem projektu jest użycie solvera ograniczeń IBM ILOG CPLEX do zamodelowania matematycznie oraz zaimplementowania problemu produkcyjnego oraz dystrybucyjnego.
+Celem projektu jest użycie solvera ograniczeń IBM ILOG CPLEX (konkretnie Concert API w C++) do zaimplementowania problemu produkcyjnego oraz dystrybucyjnego.
+
+[**Projekt dystrybucyjny na GitHub**](https://github.com/Kacper79/DystroCPLEX) &emsp;&emsp; [**Projekt produkcji na GitHub**](https://github.com/Kacper79/ProductionCPLEX) &emsp;&emsp; [**Solver LP**](https://github.com/Kacper79/miniSimplexSolver) &emsp;&emsp; [**Artykul Closed-Loop Production**](https://link.springer.com/article/10.1007/BF03342742)
 
 ## 0. Implementacja NER z Przetwarzania języka naturalnego (H2 2026) - WIP
 
