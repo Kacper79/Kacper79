@@ -2,9 +2,10 @@
 
 ## 0. Projekt z aplikacji mobilnych (H2 2026) - TBA
 ## 0.Projekt z optymalizacji biznesowej (H2 2026) - WIP
-Celem projektu jest użycie solvera ograniczeń IBM ILOG CPLEX (konkretnie Concert API w C++) do zaimplementowania problemu produkcyjnego oraz dystrybucyjnego.
+Celem zajęć było opanowanie solvera IBM ILOG CPLEX, najpierw z poziomu OPL (IDE), a potem z wykorzystaniem Concert API w C++ do implementacji cięższych zadań.
+Zaimplementowałem dwa problemy: produkcyjny Closed-Loop Supply Chain (z artykułu) oraz dystrybucyjny (prosty, z ksążki Williamsa).
 
-[**Projekt dystrybucyjny na GitHub**](https://github.com/Kacper79/DystroCPLEX) &emsp;&emsp; [**Projekt produkcji na GitHub**](https://github.com/Kacper79/ProductionCPLEX) &emsp;&emsp; [**Solver LP**](https://github.com/Kacper79/miniSimplexSolver) &emsp;&emsp; [**Artykul Closed-Loop Production**](https://link.springer.com/article/10.1007/BF03342742)
+[**Projekt dystrybucyjny na GitHub**](https://github.com/Kacper79/DystroCPLEX) &emsp;&emsp; [**Projekt produkcji na GitHub**](https://github.com/Kacper79/ProductionCPLEX) &emsp;&emsp; [**Solver LP**](https://github.com/Kacper79/miniSimplexSolver)
 
 ## 0. Implementacja NER z Przetwarzania języka naturalnego (H2 2026) - WIP
 
@@ -15,7 +16,7 @@ Robot mógł się poruszać w cztery strony świata oraz obracać się (dokonywa
 
 Narzędzie SLANG było nietypowe, bo generowało gotowy interpreter języka DSL jako kod źrodłowy Java za pomocą biblioteki ANTLR na podstawie specyfikacji języka we własnym formacie tekstowym.
 
-[**SLANG**](https://www3.risc.jku.at/research/formal/software/SLANG/) &emsp;&emsp; [**Dokumentacja Robot2D**](./robot2d-dokumentacja.pdf) 
+[**SLANG**](https://www3.risc.jku.at/research/formal/software/SLANG/) &emsp;&emsp; [**Dokumentacja Robot2D**](./robot2d-dokumentacja.pdf) &emsp;&emsp; [**Projekt na GitHub**](https://github.com/Kacper79/semantyka-projekt)
 
 # 2. Skaner amplifikacji do testowania podatności na DDOS (H2 2025)
 **Na przedmiocie "Systemy rozproszone i przetwarzanie równoległe"** miałem za zadanie przygotować skaner amplifikacji w C++, który wykorzystuje wyznaczone **protokoły (DNS, NTP, SNMP)** a konkretnie podatności w konfiguracji ich serwerów aby dokonać amplifikacji, na której można **oprzeć przyszłe ataki DDoS.** Projekt został zrealizowany jako prosty konsolowy program, gdzie można mu podać jako argumenty wybrany protkół oraz adres IP/ domenę DNS.
