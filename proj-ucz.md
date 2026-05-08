@@ -1,13 +1,15 @@
 # Projekty uczelniane (stopniowo uzupełniane):
 
 ## 0. Projekt z aplikacji mobilnych (H2 2026) - TBA
+Celem zajęć było nauczenie się tworzenia aplikacji mobilnych na Andoida w Javie.
+
+[**Zaliczenie z MagicSquare**]() &emsp;&emsp; [**Projekt zaliczeniowy na GitHub**]
+
 ## 0.Projekt z optymalizacji biznesowej (H2 2026) - WIP
 Celem zajęć było opanowanie solvera IBM ILOG CPLEX, najpierw z poziomu OPL (IDE), a potem z wykorzystaniem Concert API w C++ do implementacji cięższych zadań.
 Zaimplementowałem dwa problemy: produkcyjny Closed-Loop Supply Chain (z artykułu) oraz dystrybucyjny (prosty, z ksążki Williamsa).
 
 [**Projekt dystrybucyjny na GitHub**](https://github.com/Kacper79/DystroCPLEX) &emsp;&emsp; [**Projekt produkcji na GitHub**](https://github.com/Kacper79/ProductionCPLEX) &emsp;&emsp; [**Solver LP**](https://github.com/Kacper79/miniSimplexSolver)
-
-## 0. Implementacja NER z Przetwarzania języka naturalnego (H2 2026) - WIP
 
 # 1. Język DSL Robot2D (H1 2026)
 **Na przedmiocie "Semantyka i Weryfikacja Programów"** trzeba było przygotować własny interpreter w narzędziu [SLANG](https://www3.risc.jku.at/research/formal/software/SLANG/) opartym na Java, który miał realizować poruszanie się robota (np. roomby) w dwuwymiarowej przestrzeni, za pomocą [specyfikacji](./robot2d-dokumentacja.pdf) SLANG.
@@ -24,9 +26,9 @@ Narzędzie SLANG było nietypowe, bo generowało gotowy interpreter języka DSL 
 [**Prezentacja**](./AmplificationScanner.pdf) &emsp;&emsp; [**Projekt na GitHub**](https://github.com/Kacper79/ddos-tools) &emsp;&emsp; [**Prosty program sieciowy z sockets**](./prog-sieciowe-sockets.cpp)
 
 # 3. Implementacja algorytmu genetycznego (H2 2025)
-**Na przedmiocie "Algorytmy Inspirowane Naturą"** zajmowałem się tworzeniem algorytmów genetycznych dla problemów jednokryterialnych oraz wielokryterialnych (wykorzystując algorytm **NSGA-II**). Eksperymentowałem z parametrami algorytmu dla funkcji benchmarkowych - ZDT1-3 + ZDT4 + ZDT6 dla funkcji wielokryterialnych oraz funkcji Rosenbrock, Whitley, Solomon dla jednokryterialnej.
+**Na przedmiocie "Algorytmy Inspirowane Naturą"** zajmowałem się tworzeniem algorytmów genetycznych dla problemów jednokryterialnych oraz wielokryterialnych (wykorzystując algorytm **NSGA-II**). Eksperymentowałem z parametrami algorytmu dla funkcji benchmarkowych - ZDT1-4 + ZDT6 dla funkcji wielokryterialnych oraz funkcji Rosenbrock, Whitley, Solomon dla jednokryterialnej.
 
-[**Sprawozdanie Jednokryterialne**](./alin-kol1-sprawozdanie-ks.pdf) &emsp;&emsp; [**Sprawozdanie wielokryterialne**](./ALIN-KOL2-Sprawo.pdf)  &emsp;&emsp; [**Wyniki wielokryterialnego alg**](./ALIN-KOL2-Wyniki.pdf)
+[**Projekt na GitHub**](https://github.com/Kacper79/alin-alg-genetyczny) &emsp;&emsp; [**Sprawozdanie Jednokryterialne**](./alin-kol1-sprawozdanie-ks.pdf) &emsp;&emsp; [**Sprawozdanie wielokryterialne**](./ALIN-KOL2-Sprawo.pdf)  &emsp;&emsp; [**Wyniki wielokryterialnego alg**](./ALIN-KOL2-Wyniki.pdf)
 
 # 4. Administracja systemem komputerowym - Linux + Cisco (2025)
 **Na przedmiocie "Administrowanie Systemami i Sieciami Komputerowymi"** zajmowałem się administracją małej sieci komputerów roboczych i dwóch serwerów Dell w postaci Rack mających symulować infrastrukturę średniej firmy. Na serwerach postawiłem Ubuntu Linux i ustawiłem je w roli software routera stanowiących gateway. Serwery mialy postawione usługi DHCP, DNS, VPN, Keepalived (protokól VRRP) dla redundencji routerów. Na switchach cisco ustawiłem zabezpieczenia w tym odpowiednią segmentacje sieci za pomocą VLAN. Finalnym efektem było, że przepięcie kabla ethenet stacji roboczej do switcha pomiędzy portami należącymi do innego VLANu powodowało przydzielenie innego adresu IP - adresu IP z puli danej podsieci DHCP. Udało się podpiąć wcześniej istniejące maszyny wirtualne Active Directory pod moją sieć, tak aby użytkownicy mogli się logować przez stacje robocze do AD i otrzymywali odpowiednią adresacje IP. Ustawiłem odpowiedni DNS Relay, zabezpieczyłem przeciwko DHCP Snooping, ustawiłem Broadcast Storm, Sticky MAC.
