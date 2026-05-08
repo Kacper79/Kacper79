@@ -31,7 +31,7 @@ Narzędzie SLANG było nietypowe, bo generowało gotowy interpreter języka DSL 
 # 4. Administracja systemem komputerowym - Linux + Cisco (2025)
 **Na przedmiocie "Administrowanie Systemami i Sieciami Komputerowymi"** zajmowałem się administracją małej sieci komputerów roboczych i dwóch serwerów Dell w postaci Rack mających symulować infrastrukturę średniej firmy. Na serwerach postawiłem Ubuntu Linux i ustawiłem je w roli software routera stanowiących gateway. Serwery mialy postawione usługi DHCP, DNS, VPN, Keepalived (protokól VRRP) dla redundencji routerów. Na switchach cisco ustawiłem zabezpieczenia w tym odpowiednią segmentacje sieci za pomocą VLAN. Finalnym efektem było, że przepięcie kabla ethenet stacji roboczej do switcha pomiędzy portami należącymi do innego VLANu powodowało przydzielenie innego adresu IP - adresu IP z puli danej podsieci DHCP. Udało się podpiąć wcześniej istniejące maszyny wirtualne Active Directory pod moją sieć, tak aby użytkownicy mogli się logować przez stacje robocze do AD i otrzymywali odpowiednią adresacje IP. Ustawiłem odpowiedni DNS Relay, zabezpieczyłem przeciwko DHCP Snooping, ustawiłem Broadcast Storm, Sticky MAC.
 
-[**Prezentacja postępów (przykładowa 3 Kwietnia)**](./assk-sprawozdanie-03.04.pdf) &emsp;&emsp; [**Dokumentacja projektu**](./assk-dokumentacja.pdf) &emsp;&emsp; [**Zdjęcia**]()
+[**Prezentacja postępów (przykładowa 3 Kwietnia)**](./assk-sprawozdanie-03.04.pdf) &emsp;&emsp; [**Dokumentacja projektu**](./assk-dokumentacja.pdf) &emsp;&emsp;
 
 # Implementacją algorytmu Simplex - Nelder-Mead (H2 2025)
 Na przedmiocie "Metody Numeryczne" miałem za zadanie przygotować implementacje algorytmu simplex (Nelder-Mead) w C++.
@@ -52,19 +52,17 @@ czynności/problemy jakie tam się dzieją np. bójki więźniów, hazard, przem
 
 [**Projekt na GitHub**](https://github.com/Kacper79/UKSW_Escape_Within_Reach_Gr_1) &emsp;&emsp; [**Board Trello**](https://trello.com/b/6qdRppMN/uksw-escape-within-reach-gr1)  &emsp;&emsp; [**Dokumentacja techniczna projektu**](./proj-zesp1-gr1.pdf)
 
-## 8. Zaliczenie Technik Cyfrowych z Arduino (H1 2024)
-
-## 9. Zaliczenie Inżynierii Oprogramowania - System Informatyczny dla Czytelni (H1 2024)
+## 8. Zaliczenie Inżynierii Oprogramowania - System Informatyczny dla Czytelni (H1 2024)
 Celem było przygotowanie prostego systemu obsługi czytelni z wykorzystaniem C++, UML oraz wzorców projektowych.
 
 [**Projekt na GitHub**](https://github.com/Kacper79/INCzytelnia) &emsp;&emsp; [**Dokumentacja**](./in-oprog-proj-dok.pdf)
 
-## 10. Projekt indywidualny w Java - nakładka GUI na Sniffer z lipcap (H1 2024)
+## 9. Projekt indywidualny w Java - nakładka GUI na Sniffer z lipcap (H1 2024)
 Jako projekt indywidualny postanowiłem zrobić własny uproszczony klon Wireshark w Java na podstawie biblioteki libpcap. GUI zostało zaimplementowane z biblioteką Swing w Java oraz użyciem buildsystemu Gradle.
 
 [**Projekt na GitHub**](https://github.com/UKSWPI2024LatoD/sniffer-java)  &emsp;&emsp; [**Dokumentacja techniczna projektu**](./proj-ind-dokumentacja.pdf)
 
-## 11. Projekt na programowanie obiektowe - gra logiczna Quoridor w C++ z TUI (H2 2023)
+## 10. Projekt na programowanie obiektowe - gra logiczna Quoridor w C++ z TUI (H2 2023)
 Jako projekt zaliczający programowanie obiektowe miałem za zadanie przygotować implementacje gry logicznej - [Quoridor](https://en.wikipedia.org/wiki/Quoridor) w C++ w terminalu. Można grać w wariancie od jednym do czterech graczy, z czego pozostali gracze są obsługiwani przez komputer.
 Aby urozmaicić sobie ten projekt, zaprojektowałem elementy TUI jako oddzielne klasy (dla widoków różnych - menu, gra, tworzenie gry) oraz dodałem wygodne sterowanie z klawiatury oraz wyświetlanie kolorów.
 
