@@ -66,4 +66,4 @@ Jako projekt indywidualny postanowiłem zrobić własny uproszczony klon Wiresha
 Jako projekt zaliczający programowanie obiektowe miałem za zadanie przygotować implementacje gry logicznej - [Quoridor](https://en.wikipedia.org/wiki/Quoridor) w C++ w terminalu. Można grać w wariancie od jednym do czterech graczy, z czego pozostali gracze są obsługiwani przez komputer.
 Aby urozmaicić sobie ten projekt, zaprojektowałem elementy TUI jako oddzielne klasy (dla widoków różnych - menu, gra, tworzenie gry) oraz dodałem wygodne sterowanie z klawiatury oraz wyświetlanie kolorów.
 
-[**Projekt na GitHub**](https://github.com/Kacper79/Quoridor)  &emsp;&emsp; [**Dokumentacja techniczna**](./manual_PO.pdf) &emsp;&emsp; [**Program do testow**](./Semestralna.exe)
+[**Projekt na GitHub**](https://github.com/Kacper79/Quoridor)  &emsp;&emsp; [**Dokumentacja techniczna**](./manual_PO.pdf) &emsp;&emsp; [**Program do testow**](https://github.com/Kacper79/Quoridor/releases/download/v1.0/Semestralna.exe)
