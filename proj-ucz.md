@@ -1,5 +1,10 @@
 # Projekty uczelniane (stopniowo uzupełniane):
 
+## 0. Projekt z współczesnych technik analizy danych  (H2 2026):
+Celem projektu było dokonanie analizy grafów (np. badanie centralności grafu) dla sieci Bayesowskich, sieci sklep-klient, sieci społecznych na różnych zbiorach danych.
+
+[**Dokumentacja**]()
+
 ## 0. Projekt z aplikacji mobilnych (H2 2026) - TBA
 Celem zajęć było nauczenie się tworzenia aplikacji mobilnych na Andoida w Javie.
 
@@ -9,7 +14,7 @@ Celem zajęć było nauczenie się tworzenia aplikacji mobilnych na Andoida w Ja
 Celem zajęć było opanowanie solvera IBM ILOG CPLEX, najpierw z poziomu OPL (IDE), a potem z wykorzystaniem Concert API w C++ do implementacji cięższych zadań.
 Zaimplementowałem dwa problemy: produkcyjny Closed-Loop Supply Chain (z artykułu) oraz dystrybucyjny (prosty, z ksążki Williamsa).
 
-[**Projekt dystrybucyjny na GitHub**](https://github.com/Kacper79/DystroCPLEX) &emsp;&emsp; [**Projekt produkcji na GitHub**](https://github.com/Kacper79/ProductionCPLEX) &emsp;&emsp; [**Solver LP**](https://github.com/Kacper79/miniSimplexSolver)
+[**Projekt dystrybucyjny na GitHub**](https://github.com/Kacper79/DystroCPLEX) &emsp;&emsp; [**Projekt produkcji na GitHub**](https://github.com/Kacper79/ProductionCPLEX) &emsp;&emsp; [**Dokumentacja techniczna problemu produkcji**](https://github.com/Kacper79/ProductionCPLEX/blob/main/doc/dokumentacja.pdf) &emsp;&emsp; [**Solver LP**](https://github.com/Kacper79/miniSimplexSolver)
 
 # 1. Język DSL Robot2D (H1 2026)
 **Na przedmiocie "Semantyka i Weryfikacja Programów"** trzeba było przygotować własny interpreter w narzędziu [SLANG](https://www3.risc.jku.at/research/formal/software/SLANG/) opartym na Java, który miał realizować poruszanie się robota (np. roomby) w dwuwymiarowej przestrzeni, za pomocą [specyfikacji](./robot2d-dokumentacja.pdf) SLANG.
