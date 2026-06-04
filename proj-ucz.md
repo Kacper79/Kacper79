@@ -3,18 +3,18 @@
 ## 0. Projekt z współczesnych technik analizy danych  (H2 2026):
 Celem projektu było dokonanie analizy grafów (np. badanie centralności grafu) dla sieci Bayesowskich, sieci sklep-klient, sieci społecznych na różnych zbiorach danych.
 
-[**Dokumentacja**]()
+[**Dokumentacja**]() &emsp;&emsp; [**Notatnik Collab**]()
 
 ## 0. Projekt z aplikacji mobilnych (H2 2026) - TBA
 Celem zajęć było nauczenie się tworzenia aplikacji mobilnych na Andoida w Javie.
 
-[**Zaliczenie z MagicSquare**]() &emsp;&emsp; [**Projekt zaliczeniowy na GitHub**]
+[**Zaliczenie z MagicSquare**](https://github.com/Kacper79/MagicSquare26UKSW)
 
 ## 0.Projekt z optymalizacji biznesowej (H2 2026) - WIP
 Celem zajęć było opanowanie solvera IBM ILOG CPLEX, najpierw z poziomu OPL (IDE), a potem z wykorzystaniem Concert API w C++ do implementacji cięższych zadań.
 Zaimplementowałem dwa problemy: produkcyjny Closed-Loop Supply Chain (z artykułu) oraz dystrybucyjny (prosty, z ksążki Williamsa).
 
-[**Projekt dystrybucyjny na GitHub**](https://github.com/Kacper79/DystroCPLEX) &emsp;&emsp; [**Projekt produkcji na GitHub**](https://github.com/Kacper79/ProductionCPLEX) &emsp;&emsp; [**Dokumentacja techniczna problemu produkcji**](https://github.com/Kacper79/ProductionCPLEX/blob/main/doc/dokumentacja.pdf) &emsp;&emsp; [**Solver LP**](https://github.com/Kacper79/miniSimplexSolver)
+[**Projekt dystrybucyjny na GitHub**](https://github.com/Kacper79/DystroCPLEX) &emsp;&emsp; [**Projekt produkcji na GitHub**](https://github.com/Kacper79/ProductionCPLEX)
 
 # 1. Język DSL Robot2D (H1 2026)
 **Na przedmiocie "Semantyka i Weryfikacja Programów"** trzeba było przygotować własny interpreter w narzędziu [SLANG](https://www3.risc.jku.at/research/formal/software/SLANG/) opartym na Java, który miał realizować poruszanie się robota (np. roomby) w dwuwymiarowej przestrzeni, za pomocą [specyfikacji](./robot2d-dokumentacja.pdf) SLANG.
@@ -40,10 +40,10 @@ Narzędzie SLANG było nietypowe, bo generowało gotowy interpreter języka DSL 
 
 [**Prezentacja postępów (przykładowa 3 Kwietnia)**](./assk-sprawozdanie-03.04.pdf) &emsp;&emsp; [**Dokumentacja projektu**](./assk-dokumentacja.pdf) &emsp;&emsp;
 
-# Implementacją algorytmu Simplex - Nelder-Mead (H2 2025)
-Na przedmiocie "Metody Numeryczne" miałem za zadanie przygotować implementacje algorytmu simplex (Nelder-Mead) w C++.
+# Implementacją algorytmu Nelder-Mead (H2 2025)
+Na przedmiocie "Metody Numeryczne" miałem za zadanie przygotować implementacje algorytmu (Nelder-Mead) w C++.
 
-[**Prezentacja**](./NELDER-MEAD.pdf)
+[**Prezentacja**](./NELDER-MEAD.pdf) &emsp;&emsp; [**Program w C++**](./nelder-mead.cpp)
 
 ## 5. Implementacja strony WWW z Backend (Spring) + Frontend (Thymeleaf) w Java (H1 2025)
 
