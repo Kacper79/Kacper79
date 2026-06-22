@@ -1,14 +1,9 @@
 # Projekty uczelniane (stopniowo uzupełniane):
 
-## 0. Projekt z współczesnych technik analizy danych  (H2 2026):
-Celem projektu było dokonanie analizy grafów (np. badanie centralności grafu) dla sieci Bayesowskich, sieci sklep-klient, sieci społecznych na różnych zbiorach danych.
-
-[**Dokumentacja**]() &emsp;&emsp; [**Notatnik Collab**]()
-
 ## 0. Projekt z aplikacji mobilnych (H2 2026) - TBA
-Celem zajęć było nauczenie się tworzenia aplikacji mobilnych na Andoida w Javie.
+Celem zajęć było nauczenie się tworzenia aplikacji mobilnych na Andoida w Javie. W ramach zajęć przygotowałem dwie aplikacje - pierwsza aplikacja realizowała prostę grę magic squares. W ramach zaliczenia zajeć przygotowałem także dedykowaną grę quiz testująca znajomość gry riichi mahjong.
 
-[**Zaliczenie z MagicSquare**](https://github.com/Kacper79/MagicSquare26UKSW)
+[**Zaliczenie z MagicSquare**](https://github.com/Kacper79/MagicSquare26UKSW) &emsp;&emsp; [**Projekt zaliczeniowy**](https://github.com/Kacper79/RiichiTrainer)
 
 ## 0.Projekt z optymalizacji biznesowej (H2 2026) - WIP
 Celem zajęć było opanowanie solvera IBM ILOG CPLEX, najpierw z poziomu OPL (IDE), a potem z wykorzystaniem Concert API w C++ do implementacji cięższych zadań.
